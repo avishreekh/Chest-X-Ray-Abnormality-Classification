@@ -5,7 +5,7 @@ This projects aims to detect abnormalities in chest X-rays using methods in Deep
 - [ ] Data visualization and EDA
 - [ ] Data Preprocessing
 - [ ] Classification using different models
-- [x] Data post-processing and analysis
+- [ ] Data post-processing and analysis
 
 ## Source
 The data has been taken from the [NIH Chest X-ray Dataset](https://www.kaggle.com/nih-chest-xrays/sample) on Kaggle.
