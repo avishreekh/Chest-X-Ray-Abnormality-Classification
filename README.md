@@ -2,10 +2,20 @@
 This projects aims to detect abnormalities in chest X-rays using methods in Deep Learning. 
 
 ## Tasks
-- [ ] Data visualization and EDA
-- [ ] Data Preprocessing
-- [ ] Classification using different models
-- [ ] Data post-processing and analysis
+- [ ] Create a Dataset parser
+  - [ ] Visualize images
+  - [ ] Explore class imbalance
+  - [ ] Process labels (one-hot encoding, reassigning labels, etc.)
+- [ ] Binary classification
+  - [ ] Create generators for train and validation splits
+  - [ ] Train using a VGG-style neural network
+  - [ ] Use transfer learning (InceptionResNetv2)
+  - [ ] Plot training graphs (Accuracy, Loss)
+- [ ] Multilabel classification
+  - [ ] Create generators for train and validation splits
+  - [ ] Without sampling: Train using a MobileNet pretrained on ImageNet
+  - [ ] With sampling: Train using a MobileNet pretrained on ImageNet
+  - [ ] Plot training graphs (Accuracy, Loss, ROC-AUC)
 
 ## Source
 The data has been taken from the [NIH Chest X-ray Dataset](https://www.kaggle.com/nih-chest-xrays/sample) on Kaggle.
