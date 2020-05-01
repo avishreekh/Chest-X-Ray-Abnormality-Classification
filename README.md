@@ -2,18 +2,18 @@
 This projects aims to detect abnormalities in chest X-rays using methods in Deep Learning. 
 
 ## Tasks
-- [ ] Create a Dataset parser
-  - [ ] Visualize images
-  - [ ] Explore class imbalance
-  - [ ] Process labels (one-hot encoding, reassigning labels, etc.)
-- [ ] Binary classification
-  - [ ] Create generators for train and validation splits
-  - [ ] Train using a VGG-style neural network
-  - [ ] Use transfer learning (InceptionResNetv2)
-  - [ ] Plot training graphs (Accuracy, Loss)
+- [X] Create a Dataset parser
+  - [X] Visualize images
+  - [X] Explore class imbalance
+  - [X] Process labels (one-hot encoding, reassigning labels, etc.)
+- [X] Binary classification
+  - [X] Create generators for train and validation splits
+  - [X] Train using a VGG-style neural network
+  - [X] Use transfer learning (InceptionResNetv2)
+  - [X] Plot training graphs (Accuracy, Loss)
 - [ ] Multilabel classification
-  - [ ] Create generators for train and validation splits
-  - [ ] Without sampling: Train using a MobileNet pretrained on ImageNet
+  - [X] Create generators for train and validation splits
+  - [X] Without sampling: Train using a MobileNet pretrained on ImageNet
   - [ ] With sampling: Train using a MobileNet pretrained on ImageNet
   - [ ] Plot training graphs (Accuracy, Loss, ROC-AUC)
 
